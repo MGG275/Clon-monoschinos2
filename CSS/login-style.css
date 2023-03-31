@@ -1,0 +1,95 @@
+.main-login{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+.main-login h1{
+    padding: 0;
+    font-size: 2.6rem;
+    margin-bottom: 70px;
+    text-align: start;
+}
+.main-login-container{
+    width: 98%;
+    max-width: 375px;
+    margin: 100px 0;
+    background-color: #252b31;
+    padding: 30px;
+    border-radius: 35px;
+}
+.main-login-container input{
+    width: 100%;
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid white;
+    padding: 0 35px 5px 35px;
+    margin-bottom: 60px;
+    outline: none;
+    color: white;
+    font-size: 2rem;
+    line-height: 3rem;
+}
+.main-login-container form div{
+    position: relative;
+}
+.gmail-logo{
+    position: absolute;
+    top: -5px;
+    left: -5px;
+    display: inline-block;
+    width: 35px;
+    height: 35px;
+    background-image: url('../Assets/login/login-gmail.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.padlock-logo{
+    position: absolute;
+    top: -5px;
+    left: -5px;
+    display: inline-block;
+    width: 35px;
+    height: 35px;
+    background-image: url('../Assets/login/login-password\ 1.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.eye-logo{
+    position: absolute;
+    top: -3px;
+    right: 0;
+    display: inline-block;
+    width: 35px;
+    height: 35px;
+    background-image: url('../Assets/login/login-password\ 2.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.main-login-container input::placeholder{/*------------PLACEHOLDER---------*/
+    color: white;
+}
+.main-login-container button{
+    display: block;
+    width: 100%;
+    background-color: #f68913;
+    color: white;
+    margin: 0 auto;
+    margin-top: 20px;
+    padding: 8px;
+    border-color: transparent;
+    border-radius: 10px;
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 400;
+    font-size: 2rem;
+}
+.main-login-container a{
+    display: block;
+    text-align: center;
+    margin-top: 40px;
+    color: #f68913;
+    font-size: 1.8rem;
+}

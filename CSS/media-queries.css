@@ -1,0 +1,210 @@
+@media(min-width: 570px){
+    main{
+        padding: 0px 60px;
+    }
+    main h1{
+        font-size: 3.5rem;
+        line-height: 4.2rem;
+    }
+    .main-error-fixer{
+        max-width: 520px;
+    }
+    .scroll-section-container .scroll-card div{
+        width: 42vw;
+    }
+    .main-scroll-section button{
+        padding: 16px 50px;
+        font-size: 1.6rem;
+    }
+    .main-login-container{/*---------- LOGIN PAGE ---------*/
+    max-width: 600px;
+    }
+    .main-login h1{
+        font-size: 4rem;
+    }
+    .main-login-container input{
+        font-size: 2.5rem;
+    }
+    .main-login-container button{
+        font-size: 2.5rem;
+    }
+    .main-login-container a{
+        font-size: 2.5rem;
+    }
+}
+@media(min-width: 770px){ /*-----------------------------770px--------------------------*/
+    .main-error-fixer{
+        max-width: 1290px;
+    }
+    .main-anime-container .card-anime-container{
+        width: 30%;
+    }
+    .scroll-section-container .scroll-card div{
+        width: 21.8vw;
+    }
+}
+@media(min-width: 990px){ /*------------------------------990 px-----------------------*/
+    .navbar .navbar-button-icon{
+        display: none;
+    }
+    .navbar .navbar-search{
+        display: none;
+    }
+    header{
+        width: 100%;
+        height: 100px;
+        background-color: #15171a;
+    }
+    .navbar{
+        padding: 0 50px;
+    }
+    .navbar .navbar-logo img{
+        width: 155px;
+        height: 75px;
+        padding: 10px;
+    }
+    .navbar .menu-container--desktop-view{
+        width: 78%;
+        height: 100%;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .navbar .menu-container--desktop-view li{
+        display: inline-block;
+        list-style: none;
+        color: white;
+        font-size: 1.5rem;
+        padding: 15px;
+    }
+    .menu-container--desktop-view .header-search-button{
+        position: relative;
+        display: inline-block;
+        width: 200px;
+        height: 42px;
+        margin-right: 25px;
+    }
+    .header-search-button input{
+        width: 100%;
+        height: 100%;
+        background-color: transparent;
+        padding: 8px 8px 8px 12px;
+        border: 1px solid #f68913;
+        outline: none;
+        border-radius: 10px;
+        color: white;
+        font-size: 1.6rem;
+        font-family: 'Nunito Sans', sans-serif
+    }
+    .header-search-button span{
+        position: absolute;
+        top: 6px;
+        right: 11px;
+        display: inline-block;
+        width: 28px;
+        height: 28px;
+        background-image: url('../Assets/img/search-header-icon.png');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: contain;
+    }
+    .menu-container--desktop-view img{
+        width: 38px;
+        height: 45px;
+        padding-bottom: 8px;
+        vertical-align: middle;
+    }
+    .menu-container--desktop-view button{
+        background-color: #f68913;
+        border-color: transparent;
+        border-radius: 10px;
+        color: white;
+        font-size: 1.6rem;
+        line-height: normal;
+        font-family: 'Nunito Sans', sans-serif;
+        margin-left: 25px;
+    }
+    .menu-container--desktop-view button a{
+        display: block;
+        padding: 5px 27px;
+    }
+    .menu-container--desktop-view button:hover{/*------------HEADER------HOVER--------------*/
+        color: #f68913;
+        cursor: pointer;
+        border: solid 2px #f68913;
+        background-color: #15171a;
+    }
+    .navbar .menu-container--desktop-view a:hover{
+        color: #f68913;
+    }
+    .menu-container--desktop-view form a :hover{
+        opacity: 0.8;
+    }
+    main{/*-----------------Main---------------*/
+        margin-top: 135px;
+    }
+    main h1{
+        padding: 0 60px;
+        margin-bottom: 30px;
+    }
+    .main-anime-container{
+        padding: 0 80px;
+    }
+    .main-anime-container .card-anime-container{
+        width: 22%;
+        max-width: 220px;
+    }
+    .scroll-section-container .scroll-card div{
+        width: 22.7vw;
+    }
+} 
+@media(min-width: 1400px){ /*-----------------------1400px------------------------*/
+    .navbar .menu-container--desktop-view{
+        width: 70%;
+    }
+    .navbar .menu-container--desktop-view li{
+        font-size: 2rem;
+    }
+    .header-search-button input{
+        font-size: 2rem;
+    }
+    .menu-container--desktop-view button{
+        padding: 9px 37px;
+    }
+    main h1{
+        font-size: 3.5rem;
+        line-height: 4.2rem;
+    }
+    main h1{
+        padding: 0 160px;
+    }
+    .main-anime-container{
+        padding: 0px 160px;
+    }
+    .main-anime-container .card-anime-container{
+        width: 18%;
+        min-width: 140px;
+        max-width: max-content;
+    }
+    .scroll-section-container .scroll-card div{
+        width: 15.5vw;
+    }
+    .main-scroll-section button{
+        padding: 20px 70px;
+        font-size: 2rem;
+    }
+}
+@media(min-width: 1700px){
+    header{
+        padding: 0 80px;
+    }
+    main h1{
+        font-size: 4.0rem;
+    }
+    .main-anime-container .card-anime-container{
+        max-width: 400px;
+    }
+    .scroll-section-container .scroll-card div{
+        width: 15.9vw;
+    }
+}
